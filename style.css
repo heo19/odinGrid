@@ -1,0 +1,197 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.sideBar{
+    margin:0;
+    height: 100vh;
+    width: 15vw;
+    background-color: rgb(46, 119, 255);
+}
+
+.topLeftTitle{
+    width:15vw;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleText{
+    color:white;
+    font-size:50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+
+.listOfbuttons{
+    margin-top:100px;
+    margin-bottom:50px
+}
+
+.sideButton{
+    width:15vw;
+    height:50px;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin-left:60px;
+}
+
+.buttonText{
+    color:white;
+    font-size:25px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.mainBar{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+.topBar{
+    height:15vh;
+    padding-top:20px;
+    width:85vw;
+    background-color: white;
+}
+
+.searchBar{
+    height:50px;
+    width:70vw;
+    background-color: white;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 100px;
+    margin-right:0;
+    flex-direction: row;
+}
+
+.search{
+    height: 30px;
+    width:  1000px;
+    border: 2px transparent;
+    background-color: rgb(206, 206, 206);
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left:50px;
+}
+
+.userNameRight{
+    height:50px;
+    width:200px;
+    margin-left:200px;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.userNameRightText{
+    font-size:20px;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+
+.mainUserDiv{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    width:85vw;
+    height:150px;
+}
+
+.userNameMain{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+}
+
+.userTitle{
+    margin-left:100px;
+}
+
+.setOfButtons{
+    margin-left:auto;
+    margin-right:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top:20px;
+}
+
+.mainButton{
+    background-color: rgb(46, 119, 255);
+    border: 2px transparent;
+    border-radius: 20px;
+    width:130px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:30px;
+}
+
+.mainScreen{
+    height:fit-content;
+    width:85vw;
+    background-color: rgb(224, 224, 224);
+    display:flex;
+    flex-direction: row;
+}
+
+.projectDiv{
+    height:85vh;
+    width: 55vw - 100px;
+    margin-left:100px;
+}
+
+.setOfProjectTitle{
+    height:50px;
+    width: 50vw;
+    font-size:30px;
+    font-weight:bold;
+    margin:0;
+    margin-top:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.projectBox{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(255, 191, 73);
+    border: 2px transparent;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom:20px;
+    position:relative;
+}
+
+.innerProjectBox{
+    height:370px;
+    width:555px;
+    margin:0;
+    background-color: white;
+    padding:15px;
+}
+
+.projectTitle{
+    margin:0;
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.projectText{
+    font-size:15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
